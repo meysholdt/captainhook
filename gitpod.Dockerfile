@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full:latest
 
+# foobar
+
 USER root
 # Install custom tools, runtime, etc.
 RUN rm -rf /usr/local/go
